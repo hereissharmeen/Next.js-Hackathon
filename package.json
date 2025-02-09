@@ -6,13 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "Data": "node scripts/importData.mjs"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
-    "next": "15.0.3",
-    "react": "19.0.0-rc-66855b96-20241106",
-    "react-dom": "19.0.0-rc-66855b96-20241106"
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.71.2",
+    "next": "^15.1.6",
+    "next-sanity": "^9.8.42",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.71.2",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -23,5 +29,3 @@
     "typescript": "^5"
   }
 }
-
-

@@ -83,7 +83,7 @@ const Cart = () => {
           </button>
 
           <button className="text-gray-600 hover:text-gray-900">
-          <Link href="/cart">
+          <Link href="/Cart">
 
             <img src="imge/cart.png" alt="cart" className="h-5 w-5"/>
             </Link>
